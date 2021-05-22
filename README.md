@@ -5,7 +5,7 @@ An installation of Python 3 is necessary for this code to run. Additionally, you
 - mido
 - pygame
 
-##usage 
+## usage 
 You should run `main.py` from the command line. It takes two arguments:
 - input midi file (path to a file you want it to process)
 - mode ("live" or "file")
