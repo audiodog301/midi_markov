@@ -7,8 +7,8 @@ An installation of Python 3 is necessary for this code to run. Additionally, you
 
 ## usage 
 You should run `main.py` from the command line. It takes two arguments:
-- input midi file (path to a file you want it to process)
 - mode ("live" or "file")
+- input midi file (path to a file you want it to process)
 For example, you could run:
 ```
 python3 main.py file input.mid
