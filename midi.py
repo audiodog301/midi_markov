@@ -56,7 +56,7 @@ def to_file(data):
 def from_file(file):
     output = []
     
-    for message in file.tracks[3]:       
+    for message in file.tracks[1]:       
         if message.type == "note_on":
             #we take the octaves (amount of 12 that fit in) and set them aside, and then with the remainder (note number in lower octave) we find the note letter name
             (quotient, remainder) = divmod(message.note, 12)
